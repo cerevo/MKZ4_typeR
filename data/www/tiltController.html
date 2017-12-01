@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        傾きで操作できます <br>
+        下の矢印が鉛直上を向くようにスマートフォンを持った状態で車のハンドルと同様に回すとそれに合わせてステアリングを切ります。<br>
+        <br>
+        →
+        <br>
+        <br>
+        この値は現在のスマートフォンの傾きのオイラー角です<br>
+        abs: <div id="abs"></div><br>
+        alpha: <div id="alpha"></div><br>
+        beta: <div id="beta"></div><br>
+        gamma: <div id="gamma"></div><br>
+        <br>
+        debug: <div id="debugDisp"></div><br>
+        <br>
+        <br>
+
+        モーターのDuty比<br>
+        stop<input id="motorRate" type="range" min="0" max="1" step="0.01" value="0">max
+
+        <script src="jquery.js"></script>
+        <script src="controllerWebSocket.js"></script>
+        <script src="tiltController.js"></script>
+    </body>
+</html>

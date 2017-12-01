@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <style>
+            * {
+                padding: 0; margin: 0;
+            }
+            body {
+                background-color: #0097C1;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="position:fixed;top: 50pt; text-align:center; width: 100%; color:white; font-size:300%; font-weight:bold; text-transform:uppercase; font-family:sans-serif" id="stringDisplay"></div>
+        <form action="" target="tif" id="form">
+            <iframe src="javascript: false;" style="display: none;" name="tif" id="tif"></iframe>
+        </form>
+        <div id="debugDisp">
+            this is a debug display
+        </div>
+        <script src="jquery.js"></script>
+        <script src="controllerWebSocket.js"></script>
+        <script src="analogController.js"></script>
+    </body>
+</html>

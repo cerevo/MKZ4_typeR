@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MKZ4_ESP32 config</title>
+        <script src="config.js"></script>
+    </head>
+    <body>
+        <form action="config.set" id="form" target="tif">
+            <iframe src="javascript:false;" style="display:none;" name="tif" id="tif"></iframe>
+            <table>
+                <tr>
+                    <td colspan="2" align="center">
+                        Servo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Left:
+                    </td>
+                    <td>
+                        0
+                    </td>
+                    <td>
+                        <input type="range" min="0" max="180" value="1" step="1" name="servoLeft" id="servoLeft"><br>
+                    </td>
+                    <td>
+                        180
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Center:
+                    </td>
+                    <td>
+                        0
+                    </td>
+                    <td>
+                        <input type="range" min="0" max="180" value="90" step="1" name="servoCenter" id="servoCenter"><br>
+                    </td>
+                    <td>
+                        180
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Right:
+                    </td>
+                    <td>
+                        0
+                    </td>
+                    <td>
+                        <input type="range" min="0" max="180" value="180" step="1" name="servoRight" id="servoRight"><br>
+                    </td>
+                    <td>
+                        180
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        Motor
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Duty:
+                    </td>
+                    <td>
+                        0
+                    </td>
+                    <td>
+                        <input type="range" min="0" max="1" step="0.01" name="maxMotorDuty" id="maxMotorDuty">
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+            </table>
+            <button type="submit" value="submit">
+                Save
+            </button>
+            <button type="button" value="Load" onclick="getConfigParameters();">
+                Load
+            </button>
+        </form>
+    </body>
+</html>

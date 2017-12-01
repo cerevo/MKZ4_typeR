@@ -1,0 +1,8 @@
+{
+    "ServoAngle":{
+        "left": 0,
+        "right": 180,
+        "center": 90
+    },
+    "maxMotorDuty": 0.8
+}
