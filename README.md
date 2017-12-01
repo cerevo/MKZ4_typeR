@@ -1,14 +1,11 @@
 # MKZ4R
 
-## TODO
-- techblogへのリンク
-
 ## 概要
 MKZ4R([MKZ4](https://maker.cerevo.com/ja/mkz4/) Racing type(仮))のAdruinoソースコードです。
 
 ## 環境
 開発環境のセットアップ方法は、
-[techblogの記事](link.dummy)を見てください。 ** ←TODO:このリンクはダミーです **
+[techblogの記事](https://tech-blog.cerevo.com/archives/4952/)を見てください。
 
 ## ファイル構成
 - MKZ4R.ino  
